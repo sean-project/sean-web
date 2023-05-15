@@ -1,4 +1,4 @@
-FROM openjdk:8-slim-buster as build
+FROM maven as build
 
 RUN mkdir -p /app
 COPY . /app/
