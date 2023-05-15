@@ -1,4 +1,4 @@
-FROM maven:3.6.3 as build
+FROM maven:3.3.9 as build
 
 RUN mkdir -p /app
 COPY . /app/
